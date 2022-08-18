@@ -1,0 +1,97 @@
+body{
+    background-repeat: no-repeat;
+    background-size:cover;
+    /*overflow-x: 10%;*/
+    margin: 0px;
+    position: sticky;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 925px;
+        
+    /* background-attachment: fixed; */
+    background-position: center center;
+   color: white;
+   
+   
+}
+button{
+    color: white;
+}
+
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+  .footerimg{
+    height: 73px;
+  }
+  .footer{
+    position: absolute;
+    top: 810px;
+    background-color: transparent;
+    backdrop-filter: blur(35px);
+    opacity: 0.9;
+  }
+.mainpara{
+   background-color: black;
+   opacity: 0.9;
+}
+.hu{
+    color:royalblue
+}
+/* .mainpara .matrix{
+    color: blue;
+} */
+#input-box{
+    position: relative;
+    top: 195px;
+}
+.footer_txt{
+     font-family: Brush Script MT,cursive; 
+     color:white
+}
+.round{
+    border-radius: 50%;
+}
+.mainh1{
+    color: rgb(255, 255, 255);
+}
+.result{
+    backdrop-filter: blur(34px);
+    color: rgb(255, 255, 255);
+    font-family: 'Rubik', sans-serif;
+    backdrop-filter: blur(34px);
+    font-size: 22px;
+
+}
+
+#input-box{
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    backdrop-filter: blur(49453px);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 119px;
+}

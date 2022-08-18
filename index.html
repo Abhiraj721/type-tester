@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300&family=Changa&family=Comfortaa&family=Edu+TAS+Beginner&family=Josefin+Sans:ital,wght@0,300;0,400;1,700&family=Kanit:ital,wght@0,300;1,300&family=Lexend+Deca&family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/8bit-wonder" type="text/css"/>
+    <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/e4342d28a0.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <title>Type Tester</title>
+</head>
+<body background="background/wallpaperflare.com_wallpaper.jpg
+">
+    <center><h1 class="mainh1" style="font-family: 'Kanit', sans-serif;">Type Tester <i class="fa-solid fa-keyboard"></i></h1></center>
+
+    
+    <div class="container row">
+        <table>
+            <tr>
+                <td>
+<button onClick="changetheme()" style="color:white;" class="btn">Change theme  </button>
+                </td>
+                <td><center><p id="safeTimerDisplay" style="font-size:35px; color: white;">       1:00 <i class="fa-solid fa-stopwatch" style="color: white;"></i></p></center></td>
+                <td> <button  onClick="reload()" style="color:white;" class="btn reloadbtn">Try again</button></td>
+                <td><button class="btn" style="color:white;" onClick="changetimer(15)">15</button></td>
+                <td><button class="btn" style="color:white;" onClick="changetimer(30)">30</button></td>
+                <td><button class="btn" style="color:white;" onClick="changetimer(60)">60</button></td>
+
+            </tr>
+            <tr>
+                
+              
+            </tr>
+        </table>
+        <div class="col-7">
+         
+            <p class="mainpara" style="font-size: 19px;"></p>
+            
+        </div>
+        <div class="col-5 input container">
+        <input type="text"   id="input-box" >
+        <div class="result"></div>
+
+        </div>
+    </div>
+    </div>
+    <div class="footer container-fluid">
+        <center>
+            <div class="row">
+                <h3 class="footer_txt">Connect With Developer</h3>
+                <div class="col-4">
+                   <a href="https://www.linkedin.com/in/abhiraj-bhosle-694a72217/" target="_blank"> <img class="footerimg" src="https://cdn-icons-png.flaticon.com/128/145/145807.png" alt=""></a>
+                </div>
+                <div class="col-4">
+                   <a href="https://abhiraj-s-portfolio.vercel.app/index.html" target="_blank"> <img class="footerimg round" src="https://avatars.githubusercontent.com/u/92145377?s=400&u=2f1978e97d6d69b6c8efaec3a1f492abe236d39c&v=4" alt=""></a>
+                </div>
+                <div class="col-4">
+                   <a href="https://github.com/Abhiraj721" target="_blank"> <img class="footerimg"   class="footerimg" src="https://cdn-icons-png.flaticon.com/128/1051/1051275.png" alt=""></a>
+                </div>
+            </div>
+        
+    </center> 
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
